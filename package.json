@@ -1,0 +1,24 @@
+{
+  "name": "systemdesigncode",
+  "version": "1.0.0",
+  "description": "This repo contains some code implementaions used in System Design concepts",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node consistent-hashing.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scorpion-lone-wolf/SystemDesignCode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scorpion-lone-wolf/SystemDesignCode/issues"
+  },
+  "homepage": "https://github.com/scorpion-lone-wolf/SystemDesignCode#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.10"
+  }
+}
