@@ -4,7 +4,7 @@
   "description": "This repo contains some code implementaions used in System Design concepts",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node consistent-hashing.ts",
+    "start": "ts-node ./rate-limiting-algo/leaky-bucket.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/scorpion-lone-wolf/SystemDesignCode#readme",
   "devDependencies": {
     "@types/node": "^24.0.10"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
   }
 }
